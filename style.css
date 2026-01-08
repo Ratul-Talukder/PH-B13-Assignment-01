@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+    width: 85vw;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+/* header-section design */
+header {
+    padding-top: 16px;
+}
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
