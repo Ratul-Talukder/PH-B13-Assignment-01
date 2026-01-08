@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #FAFAFA;
 }
 
 .inter {
@@ -40,5 +39,101 @@ header {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
+
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #3d7554;
+    border: none;
 }
 
+
+.hero-section {
+    height: 674px;
+    padding: 115px 0 179px 0;
+    background: url(./assets/hero-bg.png);
+}
+.hero-content {
+
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.status-bar {
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.circle-container {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    position: absolute;
+}
+.circle-1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #46916533;
+}
+.circle-2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    background-color: #46916566;
+
+}
+.circle-3 {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+    background-color: #469165;
+}
+.hero-title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin: 16px;
+}
+.hero-title .white {
+    color:#FFFFFF;
+}
+.hero-title .green {
+    color:#30B868;
+}
+.hero-sub-title {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.buttons {
+    display: inline-flex;
+    gap: 16px;
+}
+.left-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.right-button {
+    height: 44px;
+    border: 1px solid white;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
