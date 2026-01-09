@@ -52,6 +52,10 @@ header {
     height: 674px;
     padding: 115px 0 179px 0;
     background: url(./assets/hero-bg.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .hero-content {
 
@@ -136,4 +140,66 @@ header {
     display: inline-flex;
     align-items: center;
     gap: 10px;
+}
+
+/* main-section design */
+
+/* note-section design */
+
+.section-heading {
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.section-heading p {
+    font-size: 16px;
+    color: #627382;
+}
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+.card {
+    width: 322px;
+    height: 300px;
+    padding: 69.5px 24px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+.card-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.card-content p {
+    font-size: 16px;
+    color: #627382;
 }

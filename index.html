@@ -1,70 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Personal Knowledge Vault</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- font-Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- font-awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-</head>
-
-<body class="inter">
-
+  <body class="inter">
     <header>
-        <nav class="container nav-section ">
+      <nav class="container nav-section">
+        <div class="logo">
+          <img src="./assets/logo-navbar.png" alt="" />
+        </div>
 
-            <div class="logo">
-                <img src="./assets/logo-navbar.png" alt="">
+        <ul class="menu">
+          <li>Features</li>
+          <li>How It Works</li>
+          <li>Why It's Different</li>
+        </ul>
+
+        <button class="btn">Get Early Access</button>
+      </nav>
+
+      <section class="hero-section">
+        <div class="container hero-content">
+          <div class="status-bar">
+            <div class="circle-container">
+              <div class="circle circle-1"></div>
+              <div class="circle circle-2"></div>
+              <div class="circle circle-3"></div>
             </div>
-            
-            <ul class="menu">
-                <li>Features</li>
-                <li>How It Works</li>
-                <li>Why It's Different</li>
-            </ul>
+            <p>Early Access Now Open</p>
+          </div>
 
-            <button class="btn">Get Early Access</button>
-        </nav>
+          <div class="hero-title">
+            <p>
+              <span class="white"
+                >Structured Thinking,<br /><span class="green"
+                  >Not Just Note-Taking.</span
+                ></span
+              >
+            </p>
+          </div>
 
-        <section class="hero-section">
-            <div class="container hero-content">
-                <div class="status-bar">
-                    <div class="circle-container">
-                        <div class="circle circle-1"></div>
-                        <div class="circle circle-2"></div>
-                        <div class="circle circle-3"></div>
-                    </div>
-                    <p>Early Access Now Open</p>
-                </div>
+          <p class="hero-sub-title">
+            A private space to store notes, links, and learning summaries —
+            designed to
+            <br />
+            help you think clearly, connect ideas, and turn learning into
+            long-term knowledge.
+          </p>
 
-                <div class="hero-title">
-                    <p><span class="white">Structured Thinking,<br><span class="green">Not Just Note-Taking.</span></span></p>
-                </div>
-
-                <p class="hero-sub-title">A private space to store notes, links, and learning summaries — designed to
-                <br>
-                help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
-
-                <div class="buttons">
-                    <button class="btn left-button">Start Building Your Vault <img src="./assets/ArrowRight.png" alt=""></button>
-                    <button class="btn right-button"><i class="fa-solid fa-play"></i> See How It Works</button>
-                </div>
-
-            </div>
-    
-        </section>
-
+          <div class="buttons">
+            <button class="btn left-button">
+              Start Building Your Vault
+              <img src="./assets/ArrowRight.png" alt="" />
+            </button>
+            <button class="btn right-button">
+              <i class="fa-solid fa-play"></i> See How It Works
+            </button>
+          </div>
+        </div>
+      </section>
     </header>
 
-</body>
+    <main>
+      <section class="container note-section">
+        <div class="section-heading">
+          <h2>Notes Don't Fail, Structure Does.</h2>
+          <p>
+            You're not bad at learning. Your tools just weren't built for how
+            knowledge actually works.
+          </p>
+        </div>
+
+        <div class="section-cards">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon">
+                <img src="./assets/Vector.png" alt="" />
+              </div>
+              <h3 class="card-title">Scattered Notes</h3>
+              <p>
+                Your ideas live in 10 different apps, none of them connected.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon">
+                <img src="./assets/Bookmarks.png" alt="" />
+              </div>
+              <h3 class="card-title">Bookmark Overload</h3>
+              <p>Hundreds of saved links you'll never revisit or remember.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon">
+                <img src="./assets/Brain.png" alt="" />
+              </div>
+              <h3 class="card-title">No Idea Connections</h3>
+              <p>
+                Insights stay isolated, never building into bigger
+                understanding.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon">
+                <img src="./assets/Info.png" alt="" />
+              </div>
+              <h3 class="card-title">Forgetting what you learned</h3>
+              <p>Knowledge fades because there's no system to retain it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
